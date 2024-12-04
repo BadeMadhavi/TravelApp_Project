@@ -1,0 +1,36 @@
+
+.main {
+    width: 400px;
+    height: 100vh;
+    background-color: skyblue; /* Sky blue background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center align horizontally */
+  }
+  
+  /* Styling for the clickable image */
+  .homeimg {
+    width: 100%; /* Make it responsive to container */
+    max-width: 300px; /* Limit maximum width */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    margin-bottom: 2rem; /* Add space below the image */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    background-color: rgb(212, 151, 224); /* Optional: Subtle shadow */
+  }
+  
+  /* Styling for the travel app text container */
+  .travel {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+  }
+  

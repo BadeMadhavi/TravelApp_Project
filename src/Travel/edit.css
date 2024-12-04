@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .edit-container {
+    width: 340px;
+    height: 100vh;
+    margin: 0 auto; /* Center horizontally */
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width/height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .edit-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .edit-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .edit-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .edit-container button:first-child {
+    background-color: #87ceeb; /* Sky blue color */
+    color: #ffffff;
+  }
+  
+  .edit-container button:first-child:hover {
+    background-color: #5db4d7;
+  }
+  
+  .edit-container button:last-child {
+    background-color: #dc3545; /* Red color for Cancel button */
+    color: #ffffff;
+  }
+  
+  .edit-container button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-container p {
+    font-size: 16px;
+    color: #666666;
+  }
+   /* TRIPS */
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .edit-container {
+    width: 340px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Changed to flex-start to align content at the top */
+    align-items: center;
+    overflow-y: auto; /* Allow scrolling when content exceeds the container height */
+  }
+  .trips-container{
+    width: 340px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .trips-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .trips-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .trips-container li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .trips-container li span {
+    font-size: 16px;
+    color: #333333;
+ 
+  }
+  
+  .trips-container li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    background-color: #e9f4ff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trips-container li a:hover {
+    background-color: #d0eaff;
+  }
+  

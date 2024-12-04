@@ -1,0 +1,139 @@
+
+
+.login-container {
+    position: relative;
+    font-family: Sofia Pro;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  /* Ellipse Background 1 */
+  .login-container.corner {
+    position: absolute; /* Required for precise positioning */
+    background-image: url('C:/Users/dell/figma3/public/Ellipse 128.png'); /* Relative path to public folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 0 0 150px; /* Downside curve */
+    z-index: -1; /* Sends it behind other content */
+    width: 150px; /* Adjust size */
+    height: 150px; /* Adjust size */
+   margin-bottom: 30px;
+    right: 200px; /* Align properly */
+  }
+  
+  /* Ellipse Background 2 */
+  .login-container.corner2 {
+    position: absolute; /* Required for precise positioning */
+    background-image: url('C:/Users/dell/figma3/public/Ellipse 127.png'); /* Relative path to public folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px 90px 80px 90px; /* Curved sides */
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    top: 50px; /* Adjust for positioning */
+    left: 10px; /* Adjust for alignment */
+  }
+  
+  /* Ellipse Background 3 */
+  .login-container.corner3 {
+    position: absolute; /* Required for precise positioning */
+    background-image: url('C:/Users/dell/figma3/public/Ellipse 126.png'); /* Relative path to public folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 50px;
+    height: 130px;
+    top: 70px; /* Adjust for positioning */
+    left: 30px; /* Adjust for alignment */
+  }
+  
+  /* For Top Margin Adjustment */
+  .semi {
+    margin-top: -350px;
+  }
+  
+  /* Back Arrow */
+  .back-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    background: none;
+    border: 1px solid rgb(179, 172, 172);
+    cursor: pointer;
+    color: #333;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    padding:10px;
+  }
+  
+  
+  /* Header */
+  .login-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+  
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:#C4C4C4;
+  }
+  .forgot{
+    font-family: Sofia Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:skyblue;
+
+  }
+  .login-btn {
+    padding-top: 20px;
+    padding-bottom:20px ;
+    font-size: 17px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .signup-text{
+    text-align: center;
+    font-size: 20px;
+  }
+  .signup-btn{
+    color:skyblue;
+    text-decoration: underline;
+  }

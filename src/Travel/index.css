@@ -1,0 +1,100 @@
+/* index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .list-container {
+    width: 340px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .list-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .list-container button {
+    padding: 10px 15px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .list-container button:hover {
+    background-color: #4ca1ff;
+  }
+  
+  .list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-container li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .list-containerli h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .list-container li p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .list-container li button {
+    background-color:skyblue;
+    padding: 8px 10px;
+    font-size: 12px;
+    width: 48%;
+    margin-right: 4%;
+  }
+  
+  .list-container li button:last-of-type {
+    background-color: #f44336;
+    margin-right: 0;
+  }
+  
+  .list-container li button:hover {
+    background-color: #0e8a9b;
+  }
+  
+  .list-container li button:last-of-type:hover {
+    background-color: #d32f2f;
+  }
+  
+  .list-container button:last-of-type {
+    background-color: #bbb;
+  }
+  
+  .list-container button:last-of-type:hover {
+    background-color: #999;
+  }
+  
+  
